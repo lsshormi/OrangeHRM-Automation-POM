@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+    <test name="Login Test">
+        <classes>
+            <class name="me.shormi.tests.Login_Test"/>
+        </classes>
+    </test>
+    
+    <test name="Leave Management Test">
+        <classes>
+            <class name="me.shormi.tests.Leave_Test"/>
+        </classes>
+    </test>
+</suite>
